@@ -11,8 +11,6 @@ Set a steam shortcut to pwsh (PowerShell 7) and have it run the desired script. 
 ## Example
 Personal example for youtube using GloSC for steam overlay:
 
-Target: `"C:\Program Files\PowerShell\7\pwsh.exe"`
-
-Start In: `"C:/Program Files (x86)/GloSC"`
-
-Launch Options: `-WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command "& <PathToScript>/LaunchAndWaitFirefoxSpecial.ps1 -launchcmd 'C:/Program Files (x86)/GloSC/SteamTarget.exe' -LaunchArgs './targets/Youtube.ini' -game 'Firefox'"`
+- Target: `"C:\Program Files\PowerShell\7\pwsh.exe"`
+- Start In: `"C:/Program Files (x86)/GloSC"`
+- Launch Options: `-WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command "& <PathToScript>/LaunchAndWaitFirefoxSpecial.ps1 -launchcmd 'C:/Program Files (x86)/GloSC/SteamTarget.exe' -LaunchArgs './targets/Youtube.ini' -game 'Firefox'"`
